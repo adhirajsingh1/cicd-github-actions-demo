@@ -33,7 +33,11 @@ DOCKER_PASSWORD → Docker Hub password/access token
 ***5. Deployment with Minikube***
 
 minikube start
+
 kubectl apply -f deployment.yml
+
 kubectl get pods
+
 kubectl get svc
+
 minikube service flask-service
